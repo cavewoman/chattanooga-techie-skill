@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "api starter",
+      "invocationName": "chattanooga techie",
       "types": [],
       "intents": [
         {
@@ -29,6 +29,23 @@
             "how many astronauts are in space",
             "how many astronauts are in space now",
             "how many astronauts are currently in space"
+          ]
+        },
+        {
+          "name": "NextMeetupIntent",
+          "slots": [
+            {
+              "name": "meetupName",
+              "type": "AMAZON.LITERAL"
+            }
+          ],
+          "samples": [
+            "when is the next {Chadev | meetupName}",
+            "when is the next {Hack Night | meetupName}",
+            "when is the next {Code X X | meetupName}",
+            "when is the next {Chadev | meetupName} meet up",
+            "when is the next {Hack Night | meetupName} meet up",
+            "when is the next {Code X X | meetupName} meet up"
           ]
         }
       ]
